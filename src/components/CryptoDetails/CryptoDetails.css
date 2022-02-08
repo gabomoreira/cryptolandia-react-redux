@@ -1,0 +1,81 @@
+.cryptoDetails__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 7%;
+  background-color: whitesmoke;
+}
+
+.cryptoDetails__header {
+  display: flex;
+}
+
+.cryptoDetails__header img {
+  margin-right: 10px;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.cryptoDetails__flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.cryptoDetails__detail p {
+  margin-left: 10px;
+}
+
+.cryptoDetails__details,
+.cryptoDetails__detailsLink {
+  flex-direction: column;
+  display: flex;
+  padding: 10px;
+  background: #eee;
+  margin-top: 15px;
+  border-radius: 16px;
+}
+.cryptoDetails__detailsLink {
+  margin-top: 30px;
+}
+
+.cryptoDetails__detailLink {
+  display: flex;
+  padding: 10px;
+  background: #fff;
+  margin-top: 15px;
+  border-radius: 16px;
+}
+
+.cryptoDetails__detailLink a {
+  margin-left: 10px;
+}
+
+.cryptoDetails__detailsLink .MuiSvgIcon-root {
+  margin-right: 10px;
+}
+
+.cryptoDetails__detail .MuiSvgIcon-root {
+  color: #000;
+  margin-right: 5px;
+}
+
+.cryptoDetails__details h2,
+.cryptoDetails__detailsLink h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .cryptoDetails__detailLink {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    max-width: 300px;
+    align-items: center;
+  }
+}

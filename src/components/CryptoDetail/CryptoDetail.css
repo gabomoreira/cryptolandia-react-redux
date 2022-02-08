@@ -1,0 +1,16 @@
+.cryptoDetails__detail p {
+  margin-left: 10px;
+}
+
+.cryptoDetails__detail {
+  display: flex;
+  padding: 10px;
+  background: #fff;
+  margin-top: 15px;
+  border-radius: 16px;
+}
+
+.cryptoDetails__detail .MuiSvgIcon-root {
+  color: #000;
+  margin-right: 5px;
+}
