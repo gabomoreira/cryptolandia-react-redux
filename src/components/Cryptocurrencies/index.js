@@ -21,8 +21,8 @@ const Cryptocurrencies = ({ simple }) => {
       <h2>{simple ? "Top 10 Cryptocurrencies" : "Cryptocurrencies"}</h2>
       <div className="cryptocurrencies__grid">
         {data?.data?.coins.map((item) => (
-          <Link to={`/crypto/${item.uuid}`}>
-            <div className="cryptocurrencies__card" key={item.uuid}>
+          <Link to={`/crypto/${item.uuid}`} key={item.uuid}>
+            <div className="cryptocurrencies__card">
               <div className="cryptocurrencies__cardHeader">
                 <h4>
                   {item.rank}. {item.name}
